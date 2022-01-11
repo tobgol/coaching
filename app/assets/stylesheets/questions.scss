@@ -1,0 +1,33 @@
+$gray: #F4F4F4;
+
+body {
+  background: $gray;
+  max-width: 100%;
+  font-style: normal;
+  font-weight: 300;
+  background-color: white;
+  color: black;
+}
+
+.banner {
+   background: rgb(243, 201, 11);
+   h1 {
+     font-size: 50px;
+     color: #F4F4F4;
+     font-size: 9px;
+   }
+}
+
+a {
+   color: grey;
+   &:hover {
+     color: black;
+   }
+ }
+
+.header {
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 1.5rem 0 3rem;
+ }
